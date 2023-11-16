@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="shortcut icon" href="imagenes/Iconos/logo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="Css/general.css">
+</head>
+<body>
+    
+    <nav>
+        <div class="contenedor">
+            <!--
+                Contenedor de 2 elementos principales
+                1 - el logo
+                2 - las opciones de menu (menu 1, menu 2, menu N)
+            -->
+            <div class="imgLogo">
+                <img src="imagenes/logo.jpg">
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Principal</a>
+                    </li>
+                    <li>
+                        <a href="habitaciones.php">Institución</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Servicios</a>
+                        <ul>
+                            <li><a href="#">Laboratorio</a></li>
+                            <li><a href="#">Radiología</a></li>
+                            <li><a href="#">Hemoterapia</a></li>
+                            <li><a href="#">Cirugía</a></li>
+                            <li><a href="#">Ambulatorios</a></li>
+                            <li><a href="#">Tomografía Computada</a></li>
+                            <li><a href="#">Cámara Gamma</a></li>
+                            <li><a href="#">Hemodiálisis</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">Profesionales</a>
+                    </li>
+                    <li>
+                        <a href="turnos.php">Turnos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="seccionContacto">
+        <table class="contactos">
+            <h1>Contacto</h1>
+            <ul class="datos">
+                <li>
+                    <h4>Apellido:</h4>
+                    <input type="text" name="apellido" id="apellido">
+                </li>
+                <li>
+                    <h4>Nombre:</h4>
+                    <input type="text" name="nombre" id="nombre">
+                </li>
+                <li>
+                    <h4>Telefono:</h4>
+                    <input type="number" name="telefono" id="telefono">
+                </li>
+                <li>
+                    <h4>Email:</h4>
+                    <input type="email" name="correo" id="correo">
+                </li>
+                <li>
+                    <h4>Motivo:</h4>
+                    <input type="text" name="motivo" id="motivo">
+                </li>
+            </ul>
+
+            <ul class="maps">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2875.5774656140516!2d-68.4126724!3d-43.8853054!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbdf948c67e75a21d%3A0xb8d152f85aa01dab!2sComedor%20Emanuel!5e0!3m2!1ses-419!2sar!4v1693418518417!5m2!1ses-419!2sar" 
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </ul>
+        </table>
+    </section>
+
+</body>
+</html>

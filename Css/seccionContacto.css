@@ -1,0 +1,15 @@
+.contactos {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.table ul {
+    padding: 10px;
+}
+
+.table li {
+    padding: 10px;
+    text-align: left;
+    border-radius: 15px;
+}
