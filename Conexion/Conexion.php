@@ -31,6 +31,7 @@ class Conexion extends PDO
      * de datos.-
      * TODO LO QUE SE ABRRE SE TIENE QUE CERRAR
      * @return boolean
+     * 
      */
     public function abrirConexion()
     {
